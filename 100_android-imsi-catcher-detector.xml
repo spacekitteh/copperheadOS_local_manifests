@@ -1,0 +1,6 @@
+<manifest>
+
+  <project name="CellularPrivacy/Android-IMSI-Catcher-Detector" remote="github-bare" 
+path="packages/apps/AIMSICD" revision="development"/>
+
+</manifest>

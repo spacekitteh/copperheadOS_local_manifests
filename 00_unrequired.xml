@@ -1,0 +1,14 @@
+<manifest>
+<remove-project name="device/generic/goldfish" />
+<remove-project name="device/generic/goldfish-opengl" />
+<remove-project name="device/generic/mips" />
+<remove-project name="device/generic/mips64" />
+<remove-project name="device/google/accessory/arduino" />
+<remove-project name="(platform/)?hardware/(intel|ti|marvell|broadcom)" />
+<remove-project name=".*(intel|dragon|mips|hikey|darwin|invensense)"/>
+<remove-project name=".*mips.*" />
+<extend-project name="platform(/|_)(prebuilts|tools|external|development|build|cts)" clone-depth="1" />
+<extend-project name="kernel_(htc|huawei|lge)" clone-depth="1" />
+<extend-project name="kernel_google" clone-depth="10000" />
+<extend-project name="vendor" clone-depth="1" />
+</manifest>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<remote name="microg"
+             fetch="https://github.com/microg"
+             pushurl="https://github.com/spacekitteh" 
+             revision="master"
+             />
+
+  <project path="packages/apps/GmsCore" name="android_packages_apps_GmsCore" remote="microg" groups="microg"/>
+<!--  <project path="external/GmsApi" name="android_external_GmsApi" remote="microg" groups="microg">
+    <linkfile src="." dest="packages/apps/GmsLib/extern/GmsApi"/>
+    <linkfile src="." dest="packages/apps/GmsCore/extern/GmsApi"/>
+  </project>
+  <project path="external/GmsLib" name="android_external_GmsLib" remote="microg" revision="master" groups="microg">
+    <linkfile src="." dest="packages/apps/GmsCore/extern/GmsLib"/>
+  </project>
+  <project path="external/RemoteDroidGuard" name="android_packages_apps_RemoteDroidGuard" remote="microg" revision="master" groups="microg">
+    <linkfile src="." dest="packages/apps/GmsCore/extern/RemoteDroidGuard" />
+  </project>
+
+  <project path="packages/apps/UnifiedNlp" name="android_packages_apps_UnifiedNlp" remote="microg" groups="microg">
+    <linkfile src="." dest="packages/apps/GmsCore/extern/UnifiedNlp" />
+  </project>
+  <project path="external/MicroGUiTools" name="android_external_MicroGUiTools" remote="microg" groups="microg">
+    <linkfile src="." dest="packages/apps/UnifiedNlp/extern/MicroGUiTools" />
+  </project>
+  <project path="external/UnifiedNlpApi" name="android_external_UnifiedNlpApi" remote="microg" groups="microg">
+    <linkfile src="." dest="packages/apps/UnifiedNlp/extern/UnifiedNlpApi" />
+  </project>
+
+  <project path="external/Wearable" name="android_external_Wearable" remote="microg" groups="microg">
+    <linkfile src="." dest="packages/apps/GmsCore/extern/Wearable" />
+  </project>
+  <project path="external/vtm" name="android_external_vtm" remote="microg" groups="microg">
+    <linkfile src="." dest="packages/apps/GmsCore/extern/vtm" />
+  </project>
+-->
+<project path="packages/apps/GsfProxy" name="android_packages_apps_GsfProxy" remote="microg" revision="master"/>
+<project path="packages/apps/FakeStore" name="android_packages_apps_FakeStore" remote="microg" revision="master" />
+</manifest>

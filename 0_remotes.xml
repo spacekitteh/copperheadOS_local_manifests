@@ -1,0 +1,5 @@
+<manifest>
+
+  <remote name="github-bare" fetch="https://github.com/" revision="master" />
+
+</manifest>

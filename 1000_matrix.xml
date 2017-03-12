@@ -1,0 +1,17 @@
+<manifest>
+<remote name="matrix.org"
+        fetch="https://matrix.org/git/" 
+        revision="master" />
+<remote name="matrix-github"
+        fetch="https://github.com/matrix-org" 
+        revision="master" />
+<remote name="riot-github" 
+        fetch="https://github.com/vector-im"
+        revision="master" />
+
+<project name="olm" remote="matrix.org" path="external/olm" />
+<project name="matrix-android-sdk" remote="matrix-github" path="external/matrix-sdk" depth="1"/>
+<project name="riot-android" remote="riot-github" path="packages/apps/Riot" depth="1"/>
+
+
+</manifest>
